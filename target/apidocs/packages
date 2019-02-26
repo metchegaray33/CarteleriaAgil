@@ -1,0 +1,9 @@
+com.iclonet.carteleriasegura.aplicacion
+com.iclonet.carteleriasegura.controller
+com.iclonet.carteleriasegura.conversorpdf
+com.iclonet.carteleriasegura.conversorpdf.model
+com.iclonet.carteleriasegura.entidades
+com.iclonet.carteleriasegura.ocr
+com.iclonet.carteleriasegura.printer
+com.iclonet.carteleriasegura.util
+com.iclonet.carteleriasegura.webcam

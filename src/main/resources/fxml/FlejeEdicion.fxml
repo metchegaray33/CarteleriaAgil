@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="345.0" prefWidth="545.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.iclonet.carteleriasegura.controller.FlejeEdicionControlador">
+  <children>
+    <GridPane prefHeight="195.0" prefWidth="490.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="80.0">
+      <children>
+        <Label text="SAP:" GridPane.rowIndex="2" />
+        <TextField fx:id="fld_sap" GridPane.columnIndex="1" GridPane.rowIndex="2">
+          <GridPane.margin>
+            <Insets left="5.0" right="5.0" />
+          </GridPane.margin>
+        </TextField>
+        <Label text="" GridPane.columnIndex="2" />
+        <Label text="" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+        <Label text="" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+        <Label text="Tipo cartel:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+        <ComboBox fx:id="cmb_modelo" prefWidth="168.0" GridPane.columnIndex="1" GridPane.rowIndex="0">
+          <GridPane.margin>
+            <Insets left="5.0" />
+          </GridPane.margin>
+        </ComboBox>
+        <ComboBox id="cmb_modelo" fx:id="cmb_origen" prefWidth="168.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+          <GridPane.margin>
+            <Insets left="5.0" />
+          </GridPane.margin>
+        </ComboBox>
+        <Label text="Precio actual:" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+        <TextField fx:id="fld_precio_actual" GridPane.columnIndex="1" GridPane.rowIndex="3">
+          <GridPane.margin>
+            <Insets left="5.0" right="5.0" />
+          </GridPane.margin>
+        </TextField>
+        <Label text="AR$" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+        <Label minHeight="16.0" prefHeight="16.0" text="AR$" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+        <Label text="Precio antes:" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+        <TextField fx:id="fld_precio_antes" GridPane.columnIndex="1" GridPane.rowIndex="4">
+          <GridPane.margin>
+            <Insets left="5.0" right="5.0" />
+          </GridPane.margin>
+        </TextField>
+        <Label text="Origen :" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+        <TextField fx:id="fld_fecha" prefWidth="241.0" promptText="dd/mm/aa" GridPane.columnIndex="1" GridPane.rowIndex="5">
+          <GridPane.margin>
+            <Insets left="5.0" right="5.0" />
+          </GridPane.margin>
+        </TextField>
+        <Label text="Fecha" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+        <Label text="dd-mm-aa" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+      </children>
+      <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="169.0" minWidth="10.0" prefWidth="169.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="317.0" minWidth="10.0" prefWidth="244.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="295.0" minWidth="10.0" prefWidth="63.0" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+    </GridPane>
+    <TextArea fx:id="txt_descripcion" prefHeight="61.0" prefWidth="490.0" promptText="Descripcion del producto:" AnchorPane.bottomAnchor="287.5" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="1.5" />
+    <HBox spacing="3.0" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="5.0">
+      <children>
+        <Button fx:id="btn_ok" mnemonicParsing="false" onAction="#btnOkPresionado" prefWidth="75.0" text="OK" />
+        <Button fx:id="btn_cancel" mnemonicParsing="false" onAction="#cerrarVentana" prefWidth="75.0" text="Cancel" />
+      </children>
+    </HBox>
+  </children>
+</AnchorPane>

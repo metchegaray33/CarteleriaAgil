@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.iclonet.carteleriasegura.controller.VentanaMaestraControlador">
+  <center>
+    <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../imagenes/logocencosud.jpg" />
+      </image>
+    </ImageView>
+  </center>
+  <top>
+    <MenuBar BorderPane.alignment="CENTER">
+      <menus>
+        <Menu mnemonicParsing="false" text="Menu inicial - Sistema de generación de cartelería">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#abrirVentanaAutos" text="Adm carteles" />
+            <MenuItem mnemonicParsing="false" onAction="#salir" text="Salir" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+  </top>
+</BorderPane>
