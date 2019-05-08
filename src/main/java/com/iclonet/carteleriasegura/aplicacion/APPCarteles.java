@@ -20,9 +20,10 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
 
-/**
+/*
  *
  * @author Rodolfo Durante2
+
  */
 public class APPCarteles extends Application {
 
