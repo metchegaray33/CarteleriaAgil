@@ -8,7 +8,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 /**
- * Comentario v1desdeclipse1
+*comentario pull
  * @author Usuario
  *
  */
