@@ -22,7 +22,7 @@ import javafx.stage.WindowEvent;
 
 /**
  *
- * @author Rodolfo Durante
+ * @author Rodolfo Durante2
  */
 public class APPCarteles extends Application {
 
