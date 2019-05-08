@@ -22,7 +22,7 @@ import javafx.stage.WindowEvent;
 
 /*
  *
- * quiero que se merge en la master
+ * es uncomentario en v1
 
  */
 public class APPCarteles extends Application {
