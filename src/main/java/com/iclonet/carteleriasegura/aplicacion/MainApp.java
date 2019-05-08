@@ -7,7 +7,11 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-
+/**
+ * Comentario
+ * @author Usuario
+ *
+ */
 public class MainApp extends Application {
 
     @Override
