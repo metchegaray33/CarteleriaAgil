@@ -22,8 +22,7 @@ import javafx.stage.WindowEvent;
 
 /*
  *
- * mce comenta en la master
-
+* mi comentario se va pa la master
  */
 public class APPCarteles extends Application {
 
