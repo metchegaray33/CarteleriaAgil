@@ -8,7 +8,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 /**
- * Comentario v1
+ * Comentario desdelaweb
  * @author Usuario
  *
  */
