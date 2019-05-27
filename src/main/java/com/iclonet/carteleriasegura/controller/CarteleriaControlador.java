@@ -11,7 +11,7 @@ import com.iclonet.carteleriasegura.aplicacion.APPCarteles;
 
 /**
  *
- * @author Rodolfo Durante
+ * @author MCE
  */
 public abstract class CarteleriaControlador {
 
